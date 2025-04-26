@@ -3,8 +3,7 @@
   "functions": {
     "api/get-transcript.py": {
       "memory": 512,
-      "maxDuration": 60,
-      "regions": ["syd1"]
+      "maxDuration": 60
     }
   }
 }
