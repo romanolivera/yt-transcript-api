@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "functions": {
+    "api/get-transcript.py": {
+      "runtime": "python3.9",
+      "maxDuration": 60,
+      "memory": 512,
+      "regions": ["syd1"]
+    }
+  }
+}
