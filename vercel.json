@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "api/get-transcript.py", "use": "@vercel/python" }
-  ],
   "functions": {
     "api/get-transcript.py": {
       "memory": 512,
