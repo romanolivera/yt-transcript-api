@@ -1,12 +1,13 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/*.py", "use": "@vercel/python" }
+    { "src": "api/get-transcript.py", "use": "@vercel/python" }
   ],
   "functions": {
-    "api/*.py": {
+    "api/get-transcript.py": {
       "memory": 512,
-      "maxDuration": 60
+      "maxDuration": 60,
+      "regions": ["syd1"]
     }
   }
 }
