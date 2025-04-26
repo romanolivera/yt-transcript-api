@@ -1,9 +1,9 @@
 {
   "version": 2,
   "functions": {
-    "api/get-transcript.py": {
-      "maxDuration": 60,
-      "memory": 512
+    "api/*.py": {
+      "memory": 512,
+      "maxDuration": 60
     }
   }
 }
